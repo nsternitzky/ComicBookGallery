@@ -8,5 +8,9 @@ namespace NAS.ComicBookGallery.MVC.Controllers
 {
     public class ComicBooksController : Controller
     {
+        public string Detail()
+        {
+            return "Hello!";
+        }
     }
 }
